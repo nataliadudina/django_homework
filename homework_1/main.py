@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
     """
     Инициализация веб-сервера, который по заданным параметрам в сети
-    принимает запросы и отправляет их на обработку специальному классу MyServer
+    принимает запросы и отправляет их на обработку специальному классу MyServer.
     """
     webServer = HTTPServer((host, server_port), MyServer)
     print("Server started http://%s:%s" % (host, server_port))
